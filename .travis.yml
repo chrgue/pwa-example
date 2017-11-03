@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '7'
+deploy:
+  provider: firebase
+  token:
+    secure: R09Sxf+WL4Igg67y+j0wcQtcvA+pK1FozJcKyFRfgGMoE7Rd5rf48VSSeChNQIF8YT5Era4FIMEA+hGcsHBqthYDyHVpACCkf0dsOaSNDpc+rtQIsaw/9jU8ymdCvj3quLirBnV6PYB/Pgpe3e7otQqhB0iQmfkOgR5i8aO4u5tK2WsAKsDxSHCAkFW0ii29wZ9D5JPDEAc0FRK158HFidfmj1/TYnvLJVvxIfHAQFJvszbZnsonOd8gMqP9lrRqgJ9zwhsaoyQFSnx6JuLdvCHlW4211whs4RqxYiU9eNLW2e/Hj/Ry9epjz483QxtdyryHQiRiwlx2hK+Io+Smalb+zf1JITpCPZ2iSmnTbN3TluSylxKfB3GcJJoO7QePNHyGGyuE9UV1+mE5VFSRQatKQaGo2oOgPNVx/lNWVSGLubbDE+ml8Cz5NHX8y7iSlfhbea0eHKMDghNh84oxEBB7m2sN9E4JwX/hs9vu6MSARy64dwKsuvgKe8pBq0+2z6iuM4rbd72TSD6QEPH4FJH5UqJc2Sg0+ovj48zyxyrYLTOevV9xCXjTVDjPtE3p40cHZ4K2163gJu4+LY/5avUsBvdljp0nGrEoSWC+6a/4rPg6D6fL+HM/M+g5k38d9jG+h3imAYQhHPIC4J/sD4Eu8UTLWxPUvVQhFek+2+Y=
+   project: foo
